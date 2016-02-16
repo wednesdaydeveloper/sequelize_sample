@@ -18,9 +18,12 @@ const User = sequelize.define('user', {
 
 User.sync({force: true}).then(function () {
   // Table created
-  return User.create({
+  User.bulkCreate([{
     firstName: 'John',
     lastName: 'Hancock'
-  });
+  }, {
+    firstName: 'mickel',
+    lastName: 'Jackson'
+  }]);
 });
 

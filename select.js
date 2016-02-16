@@ -11,7 +11,7 @@ const config = require("./db_config")
 const sequelize = new Sequelize('database', '', '', config);
 
 /**
- * データ型の宣言 テーブル名: places
+ * データ型の宣言 テーブル名: user
  */
 const User = sequelize.define('user', {
   firstName: {
