@@ -18,6 +18,8 @@
   "homepage": "https://github.com/wednesdaydeveloper/sequelize_sample#readme",
   "dependencies": {
     "sequelize": "^3.19.2",
-    "sqlite3": "^3.1.1"
+    "sqlite3": "^3.1.1",
+    "tedious": "^1.13.2",
+    "tedious-ntlm": "^0.1.3"
   }
 }
